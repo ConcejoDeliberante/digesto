@@ -11,5 +11,6 @@ Proyecto de digesto para el Concejo Deliberante de Metán.
 
 * Database initialization
 
-Autor: Gerardo Rosales: 
+Autor: Gerardo Rosales
+
 Año: 2021
