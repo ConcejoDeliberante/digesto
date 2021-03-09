@@ -12,6 +12,40 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/.">Inicio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="/digesto">Digesto <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Concejales</a>
+          <a class="nav-item nav-link" href="#">Comisiones Internas</a>
+          <a class="nav-item nav-link" href="#">Organigrama</a>
+          <a class="nav-item nav-link" href="#">Contacto</a>
+        </div>
+      </div>
+    </nav>
+      
     <%= yield %>
+
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <p>Dirección: Suiza 207 - San José de Metán - Provincia de Salta. CP:4440</p>
+          <p>Teléfono de Contacto: 3876 420889</p>
+        </section>    
+      </div>
+      
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+        <a class="text-white" href="https://facebook.com/cdeliberantesjmetan">Concejo Deliberante San José de Metán</a>
+      </div>
+    </footer>
+
+    
   </body>
 </html>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/digesto', to: "laws#index"
+  get "laws/new", to: "laws#new"
+  post "laws", to: "laws#create"
 end
